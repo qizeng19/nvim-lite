@@ -8,15 +8,18 @@ return {
       ensure_installed = {
         "bash",
         "json",
-        "lua",
-        "markdown",
-        "markdown_inline",
-        "vim",
-        "vimdoc",
+        "python",
+        "yaml",
+        "toml",
+        "html",
+        "css",
+        "javascript",
+        "typescript",
       },
       auto_install = true,
       highlight = {
         enable = true,
+        disable = { "c", "lua", "markdown", "markdown_inline", "query", "vim", "vimdoc" },
       },
       indent = {
         enable = true,

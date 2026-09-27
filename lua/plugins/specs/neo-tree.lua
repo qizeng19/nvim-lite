@@ -18,6 +18,12 @@ return {
       },
       window = {
         width = 30,
+        mappings = {
+          ["c"] = "copy_to_clipboard",
+          ["y"] = "copy_to_clipboard",
+          ["x"] = "cut_to_clipboard",
+          ["p"] = "paste_from_clipboard",
+        },
       },
     })
   end,
